@@ -13,4 +13,4 @@ const subscriptionFunction=()=>{
     console.log(latestState);
 }
 store.subscribe(subscriptionFunction)
-store.dispatch({type:'increment'})
+store.dispatch({type:'decrement'})
